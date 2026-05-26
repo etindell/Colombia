@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Colombia Family Adventure</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<style>body{font-family:Inter,sans-serif}h1,h2,h3{font-family:Playfair Display,serif}</style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+<div id="password-overlay" class="fixed inset-0 bg-gray-900 bg-opacity-95 flex items-center justify-center z-50">
+<div class="bg-white p-8 rounded-lg shadow-2xl text-center w-11/12 max-w-sm">
+<h3 class="text-2xl font-bold mb-4">Enter Password</h3>
+<form id="password-form">
+<input type="password" id="password-input" class="w-full px-4 py-2 border rounded-lg mb-4" placeholder="Password">
+<button type="submit" class="w-full bg-amber-500 text-white py-2 rounded-lg">Enter</button>
+</form>
+<p id="error-message" class="text-red-500 mt-4"></p>
+</div></div>
+<div id="site-content" class="hidden">
+<header class="bg-cover bg-center text-white shadow-lg" style="background-image:url(images/header-bg.jpg)">
+<div class="bg-black bg-opacity-50 p-8 md:p-16">
+<div class="max-w-4xl mx-auto text-center">
+<h1 class="text-4xl md:text-6xl font-bold mb-2">Linnea, Sorenne and Marie's</h1>
+<h2 class="text-5xl md:text-7xl font-bold">Colombia Adventure</h2>
+<p class="mt-4 text-lg">Walled cities, island beaches and the heights of Bogota - March 2026</p>
+</div></div></header>
+<main class="max-w-4xl mx-auto p-4 md:p-8">
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Fri 20 Mar - Arrival in Cartagena</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">After a long travel day we landed on the Caribbean coast and made our way into the walled old city of <strong>Cartagena</strong>. The warm night air, balconies dripping with bougainvillea, and horse-drawn carriages clip-clopping over the cobblestones were the perfect welcome. We found a courtyard restaurant for a late dinner - though by the time the food arrived, little Marie had already curled up across the chairs, completely worn out. A great sign of adventures to come!</p>
+<img src="images/PXL_20260321_001701558.jpg" class="rounded-lg shadow-md w-full h-80 object-cover">
+</section>
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Sat 21 Mar - Forts, Sculptures and a Sunset on the Walls</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">Our first full day was pure Cartagena. We started in <strong>Bocagrande</strong>, posing with a giant reclining bronze sculpture beneath the palm-lined high-rises, then climbed up to the mighty <strong>Castillo San Felipe de Barajas</strong>. The girls loved exploring the fort's dark stone tunnels and scrambling along the ramparts under the Colombian flag. As the heat faded we walked the <strong>old city walls (Las Murallas)</strong> and joined the crowd for a spectacular sunset over the sea. We ended the evening with drinks and dinner up on the ramparts at <strong>Cafe del Mar</strong>, watching a sliver of crescent moon rise over the sentry boxes.</p>
+<div class="grid grid-cols-2 gap-4">
+<img src="images/PXL_20260321_150909170.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260321_154830384.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260321_161055555.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+<img src="images/PXL_20260321_163142678.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260321_230133650.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+<img src="images/PXL_20260321_230819182.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+<img src="images/PXL_20260321_233355784.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260321_234306133.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+</div></section>
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Sun 22 Mar - Off to the Islands</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">We traded the city for the sea and headed down the Baru peninsula to <strong>Hotel Las Islas</strong>, a barefoot-luxury resort tucked into the dry tropical forest of the Rosario Islands. Wooden boardwalks wound through the trees between the cabins, and we spotted the named little villas along the way. Dinner that night was magical - candlelit tables under the canopy, rustic carved wooden cups, and the sound of the forest all around us.</p>
+<div class="grid grid-cols-2 gap-4">
+<img src="images/PXL_20260322_221348965.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+<img src="images/PXL_20260322_222011822.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+</div>
+<img src="images/PXL_20260323_013438239.jpg" class="rounded-lg shadow-md w-full h-80 object-cover mt-4">
+</section>
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Mon 23 - Wed 26 Mar - Beach Days at Las Islas</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">A glorious stretch of slow island days. We followed the boardwalks down to the water each morning, swam in the warm Caribbean, and let the girls run wild between the beach and the forest trails. Hammocks, fresh fruit, and not much of a schedule - exactly what we needed after the busy city.</p>
+<img src="images/PXL_20260323_155602221.jpg" class="rounded-lg shadow-md w-full h-80 object-cover object-top">
+</section>
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Fri 27 Mar - Up to Bogota</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">From sea level to 2,600 meters! We flew up to the cool, mountain-ringed capital of <strong>Bogota</strong>. First stop was <strong>Cerro de Monserrate</strong>, riding up for sweeping views over the endless city (and the obligatory photo with the big BOGOTA letters). Then we dove into the chaos of <strong>Paloquemao market</strong>, where our guide had us tasting wild Colombian fruits we'd never seen before - lulo, mangostino, guanabana and more. The girls capped the day with a session at a local <strong>bouldering gym</strong>, scaling the colorful walls before a well-earned dinner.</p>
+<div class="grid grid-cols-2 gap-4">
+<img src="images/PXL_20260327_145505469.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260327_185034197.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260327_204411089.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260327_221937103.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+</div></section>
+
+<section class="mb-12"><h3 class="text-3xl font-bold text-amber-600 border-b-2 border-amber-200 pb-2 mb-6">Sat 28 Mar - Gardens, a Last Great Meal and Home</h3>
+<p class="text-gray-700 text-lg leading-relaxed mb-4">For our final day we wandered the <strong>Jardin Botanico de Bogota</strong>, ducking through greenhouses and rose gardens in the morning sun. We treated ourselves to one last beautiful Bogota lunch - elegant plates that were almost too pretty to eat - before heading to the airport. Adios, Colombia! From the walls of Cartagena to the island beaches to the heights of the Andes, what a trip. The girls are already asking when we can come back.</p>
+<div class="grid grid-cols-2 gap-4">
+<img src="images/PXL_20260328_151330385.jpg" class="rounded-lg shadow-md w-full h-64 object-cover">
+<img src="images/PXL_20260328_153538952.jpg" class="rounded-lg shadow-md w-full h-64 object-cover object-top">
+</div>
+<img src="images/PXL_20260328_183902988.jpg" class="rounded-lg shadow-md w-full h-80 object-cover mt-4">
+</section>
+
+<section class="mb-12 bg-amber-50 p-6 rounded-lg"><h3 class="text-2xl font-bold text-amber-800 mb-4">Trip Highlights</h3>
+<ul class="list-disc list-inside">
+<li>Castillo San Felipe de Barajas and its tunnels</li>
+<li>Sunset on the old city walls of Cartagena</li>
+<li>Cafe del Mar drinks on the ramparts</li>
+<li>Barefoot island days at Hotel Las Islas</li>
+<li>Views from Cerro de Monserrate</li>
+<li>Tasting wild fruits at Paloquemao market</li>
+<li>Bouldering in Bogota</li>
+</ul></section>
+
+</main>
+<footer class="text-center p-6 bg-gray-200"><p>An unforgettable family adventure!</p></footer>
+</div>
+<script>
+document.getElementById('password-form').addEventListener('submit',function(e){
+e.preventDefault();
+if(document.getElementById('password-input').value==='TindellColombia'){
+document.getElementById('password-overlay').classList.add('hidden');
+document.getElementById('site-content').classList.remove('hidden');
+}else{document.getElementById('error-message').textContent='Incorrect password';}
+});
+</script>
+</body></html>
